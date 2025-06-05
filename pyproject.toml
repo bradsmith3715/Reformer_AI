@@ -1,0 +1,20 @@
+[project]
+name = "pilates_fine_tuned"
+requires-python = ">=3.13"
+version = "0.1.0"
+description = "A fine-tuned pilates project."
+dependencies = [
+    "langchain-huggingface>=0.0.6",
+    "chainlit>=2.5.5",
+    "faiss-cpu>=1.11.0",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.24",
+    "langchain-openai>=0.3.16",
+    "langchain-core>=0.0.1",  # Added langchain-core
+    "pymupdf>=1.25.5",
+    "pytube>=15.0.0",
+    "unstructured>=0.17.2",
+    "youtube-transcript-api>=1.0.3",
+    "websockets==11.0.3"
+]
+
